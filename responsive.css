@@ -1,0 +1,45 @@
+@media screen and (max-width: 1400px)
+{ 
+    /* Partie globale */
+    header {
+        flex-direction: column;
+        width: 100%;
+    }
+    #corps {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #bloc_droite {
+        display: flex;
+        flex-direction: column;
+
+        }
+
+    h2 {
+        border: none;
+         font-size:1em;
+     }
+
+
+
+    /* Partie de gauche */
+    #bloc_gauche
+    {
+        font-size: 0.6em;
+    }
+
+    /* Partie de droite */
+    
+    #bloc_droite {
+        order: -1;
+        font-size: 0.7em;
+    }
+
+    article {
+        font-size: 0.7em;
+    }
+
+    a{
+        font-size: 1.3em;
+    }

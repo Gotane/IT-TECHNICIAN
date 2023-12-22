@@ -1,0 +1,219 @@
+/* SOMMAIRE 
+BLOC GLOBAL
+BLOC DE GAUCHE
+BLOC DE DROITE  */
+
+
+
+
+
+
+
+/* Bloc global*/
+
+
+
+* {
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p, li {
+    font-size: 1.4em;
+}
+
+h1 {
+    color: #e5c028;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+header {
+    display: flex;
+}
+
+
+a:hover {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+#bloc_gauche h2 {
+    text-align: center;
+    background-color: #1c1c19;
+    color: #e5c028;
+    border: 3px solid #e5c028;
+    padding: 10px;
+}
+
+
+#bloc_global {
+    display: flex;
+    flex-direction: column;
+}
+
+#corps {
+    display: flex;
+}
+
+
+
+/* Bloc de gauche */
+
+#soulignement {
+    height: 5px;
+    width: 20%;
+    background-color: #e5c028;
+    margin-top: -15px;
+    max-width: 50px;
+}
+
+
+
+
+#bloc_gauche {
+    background-color: #e5c028;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bloc_gauche p, #bloc_gauche li {
+    color: black;
+}
+
+#photo {
+    max-width : 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5c028;
+    flex: 1;
+    min-width: 270.5px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#contacts ul {
+    list-style-type: none;
+}
+
+#contacts ul li {
+    margin-bottom: 15px;
+}
+
+#apropos {
+    flex-grow: 1;
+}
+
+#presentation {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#loisirs
+{
+    text-align: center;
+}
+
+#image_loisirs
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+#photo img {
+    border-radius: 50%;
+    border: 3px solid black;
+    box-shadow: 0 0 10px 2px black;
+}
+
+
+
+/* Bloc de droite*/
+
+span {
+    color: black;
+}
+
+#titre {
+    flex: 3;
+    align-self: center;
+}
+
+#title_subtitle {
+    margin-left: 50px;
+}
+
+#titre h2  span {
+    color: #1c1c19;
+}
+
+#bloc_droite {
+    flex: 3;
+    margin-top: 5px;
+}
+
+.bloc_titre{
+    display: flex;
+    margin-left: 50px;
+}
+
+.main_titre{
+    padding-left: 20px;
+    flex: 1;
+
+}
+
+.main_titre h2 {
+    margin-top: 25px;
+    border-bottom: 3px solid #e5c028;
+}
+
+.icones_titre i{
+    color: #e5c028;
+    font-size: 2em;
+    margin-top: 18px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.icons i {
+    color: #e5c028;
+}
+
+.texte_article p {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.dates {
+    display: flex;
+    flex: 4;
+    min-width: 270px;
+}
+
+.contenu{
+    flex: 6;
+}
+
+.contenu p {
+    margin-top: 0;
+}
+
+
